@@ -1,9 +1,14 @@
 import Link from "next/link";
 import Layout from "../components/Layout";
+import styled from "styled-components";
+
+const H1 = styled.div`
+  background-color: cornflowerblue;
+`;
 
 const IndexPage = () => (
   <Layout title="Home | Next.js + TypeScript Example">
-    <h1>hi Next.js 👋</h1>
+    <H1>hi Next.js 👋</H1>
     <p>
       <Link href="/about">
         <a>About</a>
